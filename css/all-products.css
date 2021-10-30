@@ -122,3 +122,12 @@ header nav ul li:last-of-type .dropdown a:hover{
 }
 
 /* end header */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px 30px;
+    flex-wrap: wrap;
+
+}
