@@ -2,35 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.PNG">
+    <link rel="stylesheet" href="css/all-products.css">
+    <script src="https://kit.fontawesome.com/c7e5a70f91.js" crossorigin="anonymous"></script>
     <title>ALL Products</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <section class="d-flex row jutify-content-center">
-            <h1 class="bg-success col-12 text-center">All Product Details</h1>
-            <div class="col-12 text-center">
-                <img src="/images/dd76dc02b2937a11b44399c6b0c742e8.png" alt="Workplace" usemap="#workmap">
-                <map name="workmap">
-                    <area href="/product-one-details.html" coords="41,206,25,200,12,197,13,173,16,148,21,134,27,123,42,119,55,109,69,101,77,96,123,99,132,106,144,112,162,118,173,130,177,154,185,193,162,206,150,210,162,321,97,327,32,320" shape="poly">
-                    <area shape="poly" coords="35,321,103,325,161,323,158,348,167,371,171,408,159,416,129,418,118,409,105,408,100,366,96,397,92,413,57,415,30,418,21,413,25,374,42,365" alt="short" href="/product-two-details.html">
-                    <area shape="poly" coords="16,590,2,590,1,579,7,569,14,560,19,548,26,543,40,544,44,554,50,564,38,576,29,588" alt="Shoes" href="/product-three-details.html">
-                    <area shape="poly" coords="171,592,145,574,134,563,138,546,162,544,188,581,184,590" alt="Shoes" href="/product-three-details.html">
-                </map>
-            </div>
-            
-        </section>
-        <hr>
-        <div class="col-12 text-center">
-            <a href="/index.html">
-                <button class="btn btn-success"><b>Home</b></button>
-            </a>
+    <!-- header -->
+    <div class="expand">
+        <div class="container">
+            <header class="header">
+                <nav>
+                    <div>
+                        <i class="fab fa-mixer"></i>
+                        <span>TEAM</span>
+                    </div>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="product-1.html">Product#1</a></li>
+                        <li><a href="product-2.html">Product#2</a></li>
+                        <li><a href="product-3.html">Product#3</a></li>
+                        <li><a href="all-products.html">All Products</a></li>
+                        <li>
+                            <a href="#"><i class="fas fa-bars fi"></i></a>
+                            <div class="dropdown">
+                                    <a href="home.html">Home</a>
+                                    <a href="product-1.html">Product#1</a>
+                                    <a href="product-2.html">Product#2</a>
+                                    <a href="product-3.html">Product#3</a>
+                                    <a href="all-products.html">All Products</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-
-        
     </div>
-    
+    <!-- header -->
+    <div class="container">
+        <main>
+            <section >
+                <div class="col-12 text-center">
+                    <img src="images/dd76dc02b2937a11b44399c6b0c742e8.png" alt="Workplace" usemap="#workmap">
+                    <map name="workmap">
+                        <area shape="poly" coords="41,206,25,200,12,197,13,173,16,148,21,134,27,123,42,119,55,109,69,101,77,96,123,99,132,106,144,112,162,118,173,130,177,154,185,193,162,206,150,210,162,321,97,327,32,320" href="product-1.html">
+                        <area shape="poly" coords="35,321,103,325,161,323,158,348,167,371,171,408,159,416,129,418,118,409,105,408,100,366,96,397,92,413,57,415,30,418,21,413,25,374,42,365" alt="short" href="product-2.html">
+                        <area shape="poly" coords="16,590,2,590,1,579,7,569,14,560,19,548,26,543,40,544,44,554,50,564,38,576,29,588" alt="Shoes" href="product-3.html">
+                        <area shape="poly" coords="171,592,145,574,134,563,138,546,162,544,188,581,184,590" alt="Shoes" href="product-3.html">
+                    </map>
+                </div>
+            </section>
+        </main>  
+    </div>
 </body>
 </html>
