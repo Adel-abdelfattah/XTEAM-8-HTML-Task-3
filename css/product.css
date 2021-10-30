@@ -199,6 +199,18 @@ th:hover, td:hover{
     width: 90%;
     box-shadow: 0 0 11px 5px gray;
 }
+.video{
+    width: 90%;
+    margin: 15px 25px;
+}
+.audio{
+    width: 90%;
+}
+audio{
+    width: 100%;
+    margin: 15px auto;
+    color: orchid;
+}
 iframe{
     height: 800px;
     width: 100%;
